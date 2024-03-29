@@ -36,9 +36,14 @@ namespace ATM
             this.btnExit = new System.Windows.Forms.Button();
             this.txtTop = new System.Windows.Forms.TextBox();
             this.tblPnlCheckBalance = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.tblPnlSelectAccount = new System.Windows.Forms.TableLayoutPanel();
+            this.button6 = new System.Windows.Forms.Button();
             this.btnReserve1 = new System.Windows.Forms.Button();
             this.btnChecking1 = new System.Windows.Forms.Button();
+            this.btnSavings1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.tblPnlWithdrawDeposit = new System.Windows.Forms.TableLayoutPanel();
@@ -59,17 +64,12 @@ namespace ATM
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox16 = new System.Windows.Forms.TextBox();
             this.tblPnlTransactionError = new System.Windows.Forms.TableLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.tblPnlTransactionsError = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox18 = new System.Windows.Forms.TextBox();
-            this.btnSavings1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.TblPnlSelectSecondAccount = new System.Windows.Forms.TableLayoutPanel();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -87,15 +87,35 @@ namespace ATM
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.button16 = new System.Windows.Forms.Button();
             this.textBox22 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.button19 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tblPnlMain)).BeginInit();
             this.tblPnlMain.SuspendLayout();
             this.tblPnlCheckBalance.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.tblPnlSelectAccount.SuspendLayout();
             this.tblPnlWithdrawDeposit.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             this.tblPnlTransactionError.SuspendLayout();
             this.tblPnlTransactionsError.SuspendLayout();
             this.TblPnlSelectSecondAccount.SuspendLayout();
@@ -103,6 +123,14 @@ namespace ATM
             this.tblPnlTransferSourceExceedError.SuspendLayout();
             this.tblPnlTransferTargetExceedError.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // tblPnlMain
@@ -232,6 +260,45 @@ namespace ATM
             this.tblPnlCheckBalance.Visible = false;
             this.tblPnlCheckBalance.Click += new System.EventHandler(this.btnMainMenu_Click);
             // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 3;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.Controls.Add(this.textBox16, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(769, 234);
+            this.tableLayoutPanel4.TabIndex = 3;
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox16.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.Location = new System.Drawing.Point(259, 3);
+            this.textBox16.Multiline = true;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(250, 228);
+            this.textBox16.TabIndex = 0;
+            this.textBox16.Text = "\r\n\r\n\r\nAccount: 123456789\r\nBalance: $567.00";
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(3, 243);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(769, 114);
+            this.button1.TabIndex = 2;
+            this.button1.TabStop = false;
+            this.button1.Text = "Main Menu";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // tblPnlSelectAccount
             // 
             this.tblPnlSelectAccount.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -252,6 +319,18 @@ namespace ATM
             this.tblPnlSelectAccount.Size = new System.Drawing.Size(775, 360);
             this.tblPnlSelectAccount.TabIndex = 7;
             this.tblPnlSelectAccount.Visible = false;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button6.Location = new System.Drawing.Point(3, 273);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(769, 84);
+            this.button6.TabIndex = 8;
+            this.button6.TabStop = false;
+            this.button6.Text = "Main Menu";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // btnReserve1
             // 
@@ -278,6 +357,19 @@ namespace ATM
             this.btnChecking1.TabIndex = 6;
             this.btnChecking1.Text = "Checking: 123456789";
             this.btnChecking1.UseVisualStyleBackColor = true;
+            // 
+            // btnSavings1
+            // 
+            this.btnSavings1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSavings1.Font = new System.Drawing.Font("OCR A Extended", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSavings1.Location = new System.Drawing.Point(3, 183);
+            this.btnSavings1.Name = "btnSavings1";
+            this.btnSavings1.Size = new System.Drawing.Size(769, 84);
+            this.btnSavings1.TabIndex = 7;
+            this.btnSavings1.Text = "Savings: 345678901";
+            this.btnSavings1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -348,7 +440,7 @@ namespace ATM
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(222, 32);
             this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "0";
+            this.textBox2.Text = "$65.00";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanel2
@@ -545,45 +637,6 @@ namespace ATM
             this.textBox15.Text = "\r\nProcess Request";
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(3, 243);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(769, 114);
-            this.button1.TabIndex = 2;
-            this.button1.TabStop = false;
-            this.button1.Text = "Main Menu";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Controls.Add(this.textBox16, 1, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(769, 234);
-            this.tableLayoutPanel4.TabIndex = 3;
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox16.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(259, 3);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(250, 228);
-            this.textBox16.TabIndex = 0;
-            this.textBox16.Text = "\r\n\r\n\r\nAccount: 123456789\r\nBalance: ";
-            // 
             // tblPnlTransactionError
             // 
             this.tblPnlTransactionError.ColumnCount = 1;
@@ -664,31 +717,6 @@ namespace ATM
             this.textBox18.Text = "\r\n\r\nCompleting this transaction will cause the \r\naccount to exceed $3000 in trans" +
     "actions for today. \r\nPlease select another account.";
             this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnSavings1
-            // 
-            this.btnSavings1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSavings1.Font = new System.Drawing.Font("OCR A Extended", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSavings1.Location = new System.Drawing.Point(3, 183);
-            this.btnSavings1.Name = "btnSavings1";
-            this.btnSavings1.Size = new System.Drawing.Size(769, 84);
-            this.btnSavings1.TabIndex = 7;
-            this.btnSavings1.Text = "Savings: 345678901";
-            this.btnSavings1.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(3, 273);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(769, 84);
-            this.button6.TabIndex = 8;
-            this.button6.TabStop = false;
-            this.button6.Text = "Main Menu";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // TblPnlSelectSecondAccount
             // 
@@ -801,8 +829,8 @@ namespace ATM
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(769, 234);
             this.textBox19.TabIndex = 6;
-            this.textBox19.Text = "\r\n\r\nThe amount entered for transfer will exceed \r\nthe account balance for the sel" +
-    "ected account.\r\nPlease enter a smaller amount.";
+            this.textBox19.Text = "\r\n\r\nThe amount entered for withdrawal will exceed \r\nthe account balance for the s" +
+    "elected account.\r\nPlease enter a smaller amount.";
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tblPnlTransferSourceExceedError
@@ -924,30 +952,309 @@ namespace ATM
             this.textBox22.Text = "\r\n\r\n\r\n\r\nPlease take your money.\r\nHave a great day!";
             this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 1;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel6.Controls.Add(this.button5, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.textBox23, 0, 0);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 2;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel6.TabIndex = 15;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button5.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button5.Location = new System.Drawing.Point(3, 243);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(769, 114);
+            this.button5.TabIndex = 5;
+            this.button5.TabStop = false;
+            this.button5.Text = "Continue";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // textBox23
+            // 
+            this.textBox23.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox23.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(3, 3);
+            this.textBox23.Multiline = true;
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(769, 234);
+            this.textBox23.TabIndex = 6;
+            this.textBox23.Text = "\r\n\r\n\r\nDaily transactions for this account have reached the\r\n$3000 limit. Please s" +
+    "elect another acount or wait until\r\nthe next calendar day to proceed.\r\nThank you" +
+    ".";
+            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 1;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel7.Controls.Add(this.button10, 0, 1);
+            this.tableLayoutPanel7.Controls.Add(this.textBox24, 0, 0);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 2;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel7.TabIndex = 16;
+            // 
+            // button10
+            // 
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button10.Location = new System.Drawing.Point(3, 243);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(769, 114);
+            this.button10.TabIndex = 5;
+            this.button10.TabStop = false;
+            this.button10.Text = "Continue";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // textBox24
+            // 
+            this.textBox24.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox24.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Location = new System.Drawing.Point(3, 3);
+            this.textBox24.Multiline = true;
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(769, 234);
+            this.textBox24.TabIndex = 6;
+            this.textBox24.Text = "\r\n\r\nThe amount entered for withdrawal will exceed \r\nthe available cash for this m" +
+    "achine.\r\nPlease enter a smaller amount.";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 1;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Controls.Add(this.button11, 0, 1);
+            this.tableLayoutPanel8.Controls.Add(this.textBox25, 0, 0);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 2;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel8.TabIndex = 17;
+            // 
+            // button11
+            // 
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button11.Location = new System.Drawing.Point(3, 243);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(769, 114);
+            this.button11.TabIndex = 5;
+            this.button11.TabStop = false;
+            this.button11.Text = "Continue";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // textBox25
+            // 
+            this.textBox25.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox25.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox25.Location = new System.Drawing.Point(3, 3);
+            this.textBox25.Multiline = true;
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(769, 234);
+            this.textBox25.TabIndex = 6;
+            this.textBox25.Text = "\r\n\r\nCompleting this transaction will cause the\r\naccount to exceed $3000 in transa" +
+    "ctions for today. \r\nPlease enter a different amount.";
+            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 1;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Controls.Add(this.button17, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.textBox26, 0, 0);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 2;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel9.TabIndex = 18;
+            // 
+            // button17
+            // 
+            this.button17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button17.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button17.Location = new System.Drawing.Point(3, 243);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(769, 114);
+            this.button17.TabIndex = 5;
+            this.button17.TabStop = false;
+            this.button17.Text = "Continue";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // textBox26
+            // 
+            this.textBox26.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox26.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox26.Location = new System.Drawing.Point(3, 3);
+            this.textBox26.Multiline = true;
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(769, 234);
+            this.textBox26.TabIndex = 6;
+            this.textBox26.Text = "\r\n\r\nThe amount attempting to be deposited does not\r\nmatch the amount entered. Cas" +
+    "h will be returned.\r\nPlease take your cash and try again. Thank you.";
+            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 1;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Controls.Add(this.tableLayoutPanel11, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.button18, 0, 1);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 2;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel10.TabIndex = 19;
+            this.tableLayoutPanel10.Visible = false;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 3;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel11.Controls.Add(this.textBox27, 1, 0);
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(769, 234);
+            this.tableLayoutPanel11.TabIndex = 3;
+            // 
+            // textBox27
+            // 
+            this.textBox27.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox27.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox27.Location = new System.Drawing.Point(156, 3);
+            this.textBox27.Multiline = true;
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(455, 228);
+            this.textBox27.TabIndex = 0;
+            this.textBox27.Text = "\r\n\r\n\r\nAccount: 123456789\r\nCurrent Balance: $567.00\r\nBalance Pending Transaction: " +
+    "$632.00";
+            // 
+            // button18
+            // 
+            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button18.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button18.Location = new System.Drawing.Point(3, 243);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(769, 114);
+            this.button18.TabIndex = 2;
+            this.button18.TabStop = false;
+            this.button18.Text = "Main Menu";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 1;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Controls.Add(this.tableLayoutPanel13, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.button19, 0, 1);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(13, 69);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(775, 360);
+            this.tableLayoutPanel12.TabIndex = 20;
+            this.tableLayoutPanel12.Visible = false;
+            // 
+            // tableLayoutPanel13
+            // 
+            this.tableLayoutPanel13.ColumnCount = 3;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.Controls.Add(this.textBox28, 1, 0);
+            this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 1;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(769, 234);
+            this.tableLayoutPanel13.TabIndex = 3;
+            // 
+            // textBox28
+            // 
+            this.textBox28.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox28.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox28.Location = new System.Drawing.Point(156, 3);
+            this.textBox28.Multiline = true;
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(455, 228);
+            this.textBox28.TabIndex = 0;
+            this.textBox28.Text = "e";
+            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button19
+            // 
+            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button19.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
+            this.button19.Location = new System.Drawing.Point(3, 243);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(769, 114);
+            this.button19.TabIndex = 2;
+            this.button19.TabStop = false;
+            this.button19.Text = "Main Menu";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.tableLayoutPanel12);
+            this.Controls.Add(this.tableLayoutPanel10);
             this.Controls.Add(this.txtTop);
-            this.Controls.Add(this.tblPnlSelectAccount);
+            this.Controls.Add(this.tblPnlCheckBalance);
+            this.Controls.Add(this.TblPnlSelectSecondAccount);
+            this.Controls.Add(this.tblPnlWithdrawDeposit);
+            this.Controls.Add(this.tblPnlMain);
             this.Controls.Add(this.tableLayoutPanel5);
+            this.Controls.Add(this.tableLayoutPanel6);
+            this.Controls.Add(this.tableLayoutPanel9);
+            this.Controls.Add(this.tableLayoutPanel8);
             this.Controls.Add(this.tblPnlTransferTargetExceedError);
             this.Controls.Add(this.tblPnlTransferSourceExceedError);
             this.Controls.Add(this.tblPnlTransactionsError);
+            this.Controls.Add(this.tblPnlSelectAccount);
+            this.Controls.Add(this.tableLayoutPanel7);
             this.Controls.Add(this.TblPnlTransferExceedError);
             this.Controls.Add(this.tblPnlTransactionError);
-            this.Controls.Add(this.tblPnlCheckBalance);
-            this.Controls.Add(this.tblPnlWithdrawDeposit);
-            this.Controls.Add(this.tblPnlMain);
-            this.Controls.Add(this.TblPnlSelectSecondAccount);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.tblPnlMain)).EndInit();
             this.tblPnlMain.ResumeLayout(false);
             this.tblPnlCheckBalance.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
             this.tblPnlSelectAccount.ResumeLayout(false);
             this.tblPnlWithdrawDeposit.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -956,8 +1263,6 @@ namespace ATM
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
             this.tblPnlTransactionError.ResumeLayout(false);
             this.tblPnlTransactionError.PerformLayout();
             this.tblPnlTransactionsError.ResumeLayout(false);
@@ -971,6 +1276,20 @@ namespace ATM
             this.tblPnlTransferTargetExceedError.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel8.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel11.PerformLayout();
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.tableLayoutPanel13.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1037,6 +1356,26 @@ namespace ATM
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Button button19;
     }
 }
 
